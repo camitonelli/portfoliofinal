@@ -1,0 +1,194 @@
+*{
+ transition: all .3s ease!important;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    background:none!important;
+        font-family: 'Roboto', sans-serif;
+font-size: 1.4rem;
+        font-weight: 300;
+position:fixed;
+    z-index: 10;
+    text-align: right!important;
+      display: flex!important;
+  flex-direction: column!important;
+
+    margin-top:4rem!important;
+    margin-left:1rem!important;
+}
+
+.nav ul{
+          display: flex!important;
+  flex-direction: column!important;
+}
+
+
+.nav ul li{
+          display: flex!important;
+  flex-direction: column!important;
+}
+
+.nav ul li a{
+          display: flex!important;
+  flex-direction: column!important;
+}
+
+
+.nav ul li a:hover{
+    color:darkred!important;
+}
+
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    margin-top:1rem;
+    font-weight: 300;
+    font-size:1.8rem;
+}
+
+
+h1{
+font-family: 'Homemade Apple', cursive;
+    margin-left:0.9rem;
+    font-size: 2.8rem;
+}
+
+.responsive{
+    margin-top:2rem;
+    margin-bottom:1rem;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+
+.responsive img{
+border:0.09rem solid gray;
+    filter:grayscale(100%);
+    opacity: 0.8;
+}
+
+.responsive img:hover{
+    filter:none;
+    opacity: 1;
+}
+
+.caja{
+      border-left: 0.3rem solid #b25858;
+
+}
+
+.caja2{
+    border-left: 0.3rem solid #b25858;
+}
+
+
+.caja3{
+    border-bottom: 0.3rem solid #b25858;
+}
+
+p{
+        font-family: 'Roboto', sans-serif;
+text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.yo{
+    border-radius: 45%;
+}
+
+
+.boton a{
+    text-decoration: none;
+}
+
+.boton{
+      background-color: #b25858;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+
+}
+
+.boton:hover{
+      text-decoration: none;
+    color:#b25858;
+    background: white;
+
+}
+
+.redes{
+    text-decoration: none;
+    font-size: 3rem;
+    color:#b25858;
+    text-align: center;
+}
+
+.redes a{
+    text-decoration: none;
+        color:#b25858;
+
+}
+
+.redes a:hover{
+    color:darkred;
+}
+
+footer{
+    background: #cfcbc6;
+    color:#b25858;
+}
+
+footer p{
+        font-size: 1rem;
+
+}
+
+   .ban2{
+        display:inline;
+    }
+    
+    .ban1{
+        display:none;
+    }
+    
+
+
+
+@media (min-width:1200px) {
+
+    .ban1{
+        display:inline;
+    }
+    
+    .ban2{
+        display:none;
+    }
+    
+    .nav{
+            margin-left:6rem!important;
+    margin-top:2rem!important;
+            background:rgba(255, 255, 255, 0.54)!important;
+
+    }
+    .caja{
+      border-right: 0.3rem solid #b25858;
+        border-left: 0.3rem solid transparent;
+
+}
+    p{
+       
+    padding-top:1rem;
+ 
+}
+    
+    
+    
+    
+}
